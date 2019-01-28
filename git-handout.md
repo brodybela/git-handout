@@ -129,7 +129,7 @@ Show branches:
 Create branch:
 `git branch branchname`
 
-Change to branch:
+Change to branch:   
 `git checkout branchname`
 
 Create and change to new branch:
@@ -148,6 +148,19 @@ Delete merged branch (only possible if not HEAD):
 
 Delete not merged branch:
 `git branch -D branch_to_delete`
+
+Commit
+-----------
+Change commit messag
+
+Not pushed + most recent commit:
+
+`git commit --amend`
+
+Already pushed + most recent commit:
+
+`git commit --amend`
+`git push origin master --force`
 
 
 Merge
